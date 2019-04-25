@@ -1,6 +1,7 @@
 spring:
   application:
     name: admin-server
+  profiles:
     include: common,eureka,redis,rabbitmq
 mybatis:
   type-aliases-package: top.liuyanhua.admin.server.models
