@@ -1,7 +1,7 @@
 spring:
   application:
     name: admin-server
-    include: common,eureka,db,redis,rabbitmq
+    include: common,eureka,redis,rabbitmq
 mybatis:
   type-aliases-package: top.liuyanhua.admin.server.models
   mapper-locations: classpath:mapper/*.xml
