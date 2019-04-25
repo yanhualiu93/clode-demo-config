@@ -10,5 +10,5 @@ logging:
 ribbon:
   eureka:
     enabled: true
-password-encoder-type:  "{bcrypt====}"
+password-encoder-type:  "{bcrypt}"
 
