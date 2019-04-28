@@ -6,7 +6,8 @@ spring:
 logging:
   level:
     org.springframework.security: DEBUG
-    #org.springframework.boot: DEBUG
+    org.springframework.boot: DEBUG
+    ROOT: DEBUG
 ribbon:
   eureka:
     enabled: true
